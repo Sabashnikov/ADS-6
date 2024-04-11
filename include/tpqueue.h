@@ -39,6 +39,8 @@ class TPQueue {	class TPQueue {
       return data[(begin++) % size];
     }
   }
+};
+
 struct SYM {
   char ch;
   int prior;
