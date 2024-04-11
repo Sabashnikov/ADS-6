@@ -4,8 +4,8 @@
 #include <iostream>
 #include <string>
 
-template<typename T, int size>	template<typename T, int size>
-class TPQueue {	class TPQueue {
+template<typename T, int size>
+class TPQueue {
  private:
   T* data;
   int begin, end, count;
